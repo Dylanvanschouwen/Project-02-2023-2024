@@ -7,15 +7,9 @@
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-.footerbar {display: flex};
+.footerbar {
+    display: flex;
+}
             
 
 
