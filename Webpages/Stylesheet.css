@@ -1,0 +1,16 @@
+
+*{size: 0%;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;}
+body {background-color: white;}
+
+nav {color: rgb(255, 255, 255);
+    background-color: #43C4CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    size: 0cm;
+    flex-shrink: 0;
+    width: 100%;}
