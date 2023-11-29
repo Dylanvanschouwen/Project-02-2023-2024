@@ -1,1 +1,8 @@
-body {}
+/* General settings for all pages */
+/* Do NOT Change */
+* {
+    margin: 0;
+    padding: 0;
+    size: 0;
+    text-decoration: none;
+}
