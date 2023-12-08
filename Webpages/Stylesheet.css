@@ -6,13 +6,37 @@
     size: 0;
     text-decoration: none;
 }
+body{
+    background-color: slategray;
+}
+.navbar {
+    display: flex;
+    background-color: #43C4CD;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    
 
+    
+}
 
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    width: auto;
+    height: 100px;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
 
-
-
-
-
+.navbar a:hover {
+    background-color: white;
+    color: #43C4CD;
+}
 
 
 .footerbar {display: flex};
