@@ -6,7 +6,11 @@
     <title>Your Gaming Website</title>
     <link rel="stylesheet" href="stylesheet.css">
     <?php 
-    include ('navbar.php');
+    include ('../Include/navbar.php'); 
+    include ('../Include/footer.php');
     ?>
 </head>
+<body>
+    
+</body>
 </html>
