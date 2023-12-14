@@ -6,11 +6,12 @@
     <title>homepage game website</title>
     <link rel="stylesheet" href="stylesheet.css">
     <?php 
-    include ('../Include/navbar.php'); 
+    include ('../Include/navbar.php');
     include ('../Include/footer.php');
     ?>
 </head>
 <body>
+    
     
 </body>
 </html>

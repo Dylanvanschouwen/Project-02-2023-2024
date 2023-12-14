@@ -12,5 +12,6 @@
     ?>
 </head>
 <body>
+    <img src="/images/team-trees.png" alt="team-trees">
 
 </body>
