@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Stylesheet.css">
     <title>Goedendoelen</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <?php 
+    include ('../Include/navbar.php'); 
+    include ('../Include/footer.php');
+    ?>
 </head>
 <body>
-    <div class="navbar">
-        <a href="Index.html">Home</a>
-        <a href="Goedendoelen.html">Goeden doelen</a>
-        <a href="Games.html">Games</a>
-        <a href="Portfolio.html">Portfolio</a>
-    </div>
+    <img src="/images/team-trees.png" alt="team-trees">
+
 </body>

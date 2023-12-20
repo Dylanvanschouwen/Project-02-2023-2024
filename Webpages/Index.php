@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Gaming Website</title>
     <link rel="stylesheet" href="s.css">
+    <title>homepage game website</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <?php 
-    include ('navbar.php');
+    include ('../Include/navbar.php');
+    include ('../Include/footer.php');
     ?>
 </head>
 <body>
