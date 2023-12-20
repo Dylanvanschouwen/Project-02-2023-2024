@@ -12,7 +12,7 @@
 </head>
 <body> 
 <h1 class = gdh1>Onze Goedendoelen</h1>
-<div class="flex-container">
+<div class="container">
     <div class="goeden-doelen-img">
         <img src="img/team-trees.png" alt="team-trees">
     </div>
