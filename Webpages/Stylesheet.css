@@ -36,26 +36,28 @@ nav a {
     color: white;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #43C4CD;
 }
 .flex-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    height: 50vh;
 }
 
 .goeden-doelen{
     display: flex;
     align-items: center;
-    bottom: 5%;
     justify-content: space-between;
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-top: 10rem;
+}
+.marlon, .dylan, .roald{
+    background-color: #43C4CD;
 }
 
 .goeden-doelen-img{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     scale: 50%;
-
-    
 }

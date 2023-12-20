@@ -10,18 +10,17 @@
     include ('../Include/footer.php');
     ?>
 </head>
-<body>
-    <h1 class = gdh1>Onze Goedendoelen</h1>
-    <div class="flex-container">
-
-</div>
-<div class="goeden-doelen">
-        <p>Goeden doel van Marlon</p>
-        <p>Goeden doel van Dylan</p>
-        <p>Goeden doel van Roald</p>
-    </div>
- <div class="goeden-doelen-img">
+<body> 
+<h1 class = gdh1>Onze Goedendoelen</h1>
+<div class="flex-container">
+    <div class="goeden-doelen-img">
         <img src="img/team-trees.png" alt="team-trees">
     </div>
+    <div class="goeden-doelen">
+        <div class="marlon"><p>Goeden doel van Marlon</p></div>
+        <div class="dylan"><p>Goeden doel van Dylan</p></div>
+        <div class="roald"><p>Goeden doel van Roald</p></div>
+    </div>
+</div>
 </body>
 </html>
