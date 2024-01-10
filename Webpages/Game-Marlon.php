@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <?php 
-    include ('../Include/navbar.php'); 
-    include ('../Include/footer.php');
-    ?>
-</head>
-<body>
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +49,3 @@
   <script src="app.js"></script>
 </body>
 </html>
-
-</body>
-</html>
-<h1></h1>
