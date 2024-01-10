@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Stylesheet.css">
-    <title>Goedendoelen</title>
+    <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <?php 
-    include ('../Include/navbar.php'); 
-    include ('../Include/footer.php');
-    ?>
+    <?php include ('../Include/navbar.php'); ?>
 </head>
 <body>
-    <img src="/images/team-trees.png" alt="team-trees">
+    <main> 
 
+    
+    </main>
+    <?php     include ('../Include/footer.php'); ?>
 </body>
+</html>
