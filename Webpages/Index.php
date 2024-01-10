@@ -22,9 +22,11 @@
     <h1>About us</h1>
     <p>we're students at the TCR college in Rotterdam, our assignment <br>
     for this period was to make a game in javascript for charity.</p> <br>
+    <div class="profiles">
         <img src="" alt="Roald">
-        <img src="" alt="Marlon">
+        <img src="../Images/marlon.jpg" alt="Marlon">
         <img src="" alt="Dylan">
+    </div>
     <p>you can view our portfolio </p>
     <a href="portfolio.html">here.</a>
     <br><br><br><br><br><br>

@@ -49,8 +49,16 @@ nav a {
     justify-content: space-between;
 }
 .pic{
-    scale: 50%;
+    scale: 50%;}
+
+.profiles{
+    display: flex;
+    scale: 10%;
+    padding: 1%;
+    margin: 1%;
+    border: 1%;
 }
+
 h1{ 
     display: flex;
     justify-content: center;
