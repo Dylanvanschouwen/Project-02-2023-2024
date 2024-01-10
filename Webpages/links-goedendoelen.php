@@ -11,15 +11,21 @@
     ?>
 </head>
 <body> 
-<h1 class = gdh1>Onze Goedendoelen</h1>
+<h1 class = gdh1>Our Charity</h1>
 <div class="container">
-    <div class="goeden-doelen-img">
-        <img src="img/team-trees.png" alt="team-trees">
-    </div>
     <div class="goeden-doelen">
-        <div class="marlon"><p>Goeden doel van Marlon</p></div>
-        <div class="dylan"><p>Goeden doel van Dylan</p></div>
-        <div class="roald"><p>Goeden doel van Roald</p></div>
+        <div class="1">
+            <img src="img/team-trees.png" class="pic" alt="team-trees">
+            <div class="marlon"><p>Marlon's Charity</p></div>
+        </div>
+        <div class="2">
+            <img src="img/team-trees.png" class="pic" alt="team-trees">
+            <div class="dylan"><p>Dylan's Charity</p></div>
+        </div>
+        <div class="3">
+            <img src="img/team-trees.png" class="pic" alt="team-trees">
+            <div class="roald"><p>Roald's Charity</p></div>
+        </div>
     </div>
 </div>
 </body>
