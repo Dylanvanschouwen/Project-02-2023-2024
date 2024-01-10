@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Gaming Website</title>
-    <link rel="stylesheet" href="s.css">
     <title>homepage game website</title>
     <link rel="stylesheet" href="stylesheet.css">
     <?php 
@@ -13,7 +12,6 @@
     ?>
 </head>
 <body>
-    <div id="HPS"></div>
     <h1>Our games</h1>
     <img src="img./team-trees.png" alt="Roald game">
     <img src="img./team-trees.png" alt="Marlon game">
