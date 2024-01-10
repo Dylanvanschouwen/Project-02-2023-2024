@@ -15,13 +15,14 @@
 <body>
     <div id="HPS"></div>
     <h1>Our games</h1>
-    <img src="" alt="Roald game">
-    <img src="" alt="Marlon game">
-    <img src="" alt="Dylan game">
+    <img src="img./team-trees.png" alt="Roald game">
+    <img src="img./team-trees.png" alt="Marlon game">
+    <img src="img./team-trees.png" alt="Dylan game">
     <br>
     <a href="uitleg game R">Game explanation</a>
     <a href="uitleg game M">Game explanation</a>
     <a href="uitleg game D">Game explanation</a>
+    <br><br><br><br><br><br>
     <h1>About us</h1>
     <p>we're students at the TCR college in Rotterdam, our assignment <br>
     for this period was to make a game in javascript for charity.</p>
@@ -30,5 +31,9 @@
     <img src="" alt="Marlon">
     <img src="" alt="Dylan">
     <p>you can view our portfolio </p><a href="portfolio.html">here.</a>
+    <br><br><br><br><br><br>
+    <h1>Donate to play</h1>
+    <p>we're students at the TCR college in Rotterdam, our assignment <br>
+    for this period was to make a game in javascript for charity.</p>
 </body>
 </html>
