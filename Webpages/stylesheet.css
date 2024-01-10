@@ -45,21 +45,13 @@ nav a {
 
 .goeden-doelen{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 28rem;
+    margin-top: 20rem;
 }
 .marlon, .dylan, .roald{
     background-color: #43C4CD;
+    justify-content: space-between;
 }
-
-.goeden-doelen-img{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 8rem;
+.pic{
     scale: 50%;
 }
 
