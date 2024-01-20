@@ -11,6 +11,8 @@ body{
     background-color: slategray;
 }
 
+
+
 /* Css navbar */
 nav {
     display: flex;
@@ -61,10 +63,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Css goededoelen page */
-#links_main {
-    height:auto;
-}
+/* Css Links page */
 
 #links_header {
     width: 100vw;
@@ -85,7 +84,7 @@ footer {
     font-weight: bold;
     color: white;
     background-color: #43C4CD;
-    padding: 2px;
+    padding: 5px;
     border-radius: 5px;
     font-size: 40px;
 }

@@ -12,7 +12,7 @@
       <div id="game-container"></div>
       <button id="resetButton">Reset Game</button>
       <p id="score">Score: 0</p>
-      <script src="app.js"></script>
+      <script src="marlon-game.js"></script>
     </main>
     <?php include ('../Include/footer.php'); ?>
 </body>

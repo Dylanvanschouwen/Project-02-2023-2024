@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links to our chosen charities</title>
+    <?php
+        $pageTitle = "Links to our chosen charities";
+        echo "<title>$pageTitle</title>";
+    ?>
     <link rel="stylesheet" href="stylesheet.css">
     <?php include ('../Include/navbar.php'); ?>
 </head>
 <body> 
 <!-- Main code -->
-<main id="goedendoelen_main">
-    <header id="goedendoelen_header">
+<main id="links_main">
+    <header id="links_header">
         <h1>Links naar de goedendoelen die wij gekozen hebben!</h1>
     </header>
     <section>
-        <ul id="goedendoelen_list">
-            <li><a href="goedendoelen-Dylan.php">Goedendoelen van Dylan en ik deze heb gekozen!</a></li>
-            <li><a href="goedendoelen-marlon.php">Goedendoelen van Marlon en ik deze heb gekozen!</a></li>
-            <li><a href="goedendoelen-Roald.php">Goedendoelen van Roald en ik deze heb gekozen!</a></li>
+        <ul id="links_list">
+            <li><a href="Goedendoelen-Dylan.php"> <img src="dylan-charity-icon.png" alt="Dylan's Charity"> Goedendoelen van Dylan en ik deze heb gekozen!</a></li>
+            <li><a href="Goedendoelen-marlon.php">Goedendoelen van Marlon en ik deze heb gekozen!</a></li>
+            <li><a href="Goedendoelen-Roald.php">Goedendoelen van Roald en ik deze heb gekozen!</a></li>
         </ul>
     </section>
 </main>
