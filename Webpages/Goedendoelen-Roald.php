@@ -12,6 +12,6 @@
 
     
     </main>
-    <?php     include ('../Include/footer.php'); ?>
+    <?php include ('../Include/footer.php'); ?>
 </body>
 </html>

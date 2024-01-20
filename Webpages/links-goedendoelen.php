@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links to our chosen charities</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <?php 
-    include ('../Include/navbar.php'); 
-    include ('../Include/footer.php');
-    ?>
+    <?php include ('../Include/navbar.php'); ?>
 </head>
 <body> 
 <!-- Main code -->
 <main id="goedendoelen_main">
     <header id="goedendoelen_header">
-        <h1>Links naar onze goeden doelen!</h1>
+        <h1>Links naar de goedendoelen die wij gekozen hebben!</h1>
     </header>
     <section>
         <ul id="goedendoelen_list">
@@ -24,6 +21,6 @@
         </ul>
     </section>
 </main>
-
+<?php include ('../Include/footer.php'); ?>
 </body>
 </html>

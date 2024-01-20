@@ -6,9 +6,11 @@
     size: 0;
     text-decoration: none;
 }
+
 body{
     background-color: slategray;
 }
+
 /* Css navbar */
 nav {
     display: flex;
@@ -17,6 +19,7 @@ nav {
     align-items: center;
     font-size: xx-large;
 }
+
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -29,93 +32,56 @@ nav a {
     color: white;
     text-decoration: none;   
 }
+
 /* CSS Footer */
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #43C4CD;
     padding: 20px;
     color: white;
     text-align: center;
 }
+
 .footer-links {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
+
 .footer-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 .footer-links a:hover {
     text-decoration: underline;
 }
 
-
-.gdh1{     
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #43C4CD;
-}
-.goeden-doelen{
-    display: flex;
-    margin-top: 20rem;
-}
-.marlon, .dylan, .roald{
-    background-color: #43C4CD;
-    justify-content: space-between;
-}
-.pic{
-    scale: 50%;}
-
-.profiles{
-    display: flex;
-    scale: 10%;
-    padding: 1%;
-    margin: 1%;
-    border: 1%;
-}
-
-h1{ 
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #43C4CD;}
-p{  
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;}
-a{
-display: flex;
-font-family: Arial, Helvetica, sans-serif;
-justify-content: space-between;}
-
-
 /* Css goededoelen page */
-#goedendoelen_main {
-    min-height: 75.8vh;
+#links_main {
+    height:auto;
 }
-#goedendoelen_header {
+
+#links_header {
     width: 100vw;
     display: flex;
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
-#goedendoelen_list {
+
+#links_list {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
-#goedendoelen_list a {
+
+#links_list a {
     font-weight: bold;
     color: white;
     background-color: #43C4CD;
@@ -123,11 +89,12 @@ justify-content: space-between;}
     border-radius: 5px;
     font-size: 40px;
 }
-#goedendoelen_list li {
+
+#links_list li {
     margin-bottom: 5vh;
 }
-/* Css marlon game page */
 
+/* Css marlon game page */
 #game-container {
     position: absolute;
     width: 100%;
