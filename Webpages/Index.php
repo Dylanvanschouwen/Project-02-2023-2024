@@ -10,7 +10,7 @@
 <body>
     <main>
         <h1>Our games</h1>
-        <div class="placehold-png">
+        <div class="thumbnail-png">
             <img src="img./team-trees.png" alt="Roald game">
             <img src="../Images/ball clicker.png" alt="Marlon game">
             <img src="img./team-trees.png" alt="Dylan game"> <br>
