@@ -9,8 +9,9 @@
 </head>
 <body>
     <main> 
-
-    
+    <br>
+    <p>type in a number, click submit and find out if you guessed correctly!</p>
+    <br>
     </main>
     <?php include ('../Include/footer.php'); ?>
 </body>

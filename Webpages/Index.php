@@ -15,9 +15,9 @@
             <img src="../Images/ball clicker.png" alt="Marlon game">
             <img src="../Images/thumbnailDylan.png" alt="Dylan game"> <br>
         </div>
-    <a href="uitleg game R">Game explanation</a>
-    <a href="uitleg game M">Game explanation</a>
-    <a href="uitleg game D">Game explanation</a>
+    <a href="Game-uitleg-Roald.php">Game explanation: Number guessing game</a>
+    <a href="Game-uitleg-Dylan.php">Game explanation: Tic tac toe</a>
+    <a href="Game-uitleg-Marlon.php">Game explanation: Ball clicker</a>
     <br><br><br><br><br><br>
     <h1>About us</h1>
     <p>we're students at the TCR college in Rotterdam, our assignment <br>
