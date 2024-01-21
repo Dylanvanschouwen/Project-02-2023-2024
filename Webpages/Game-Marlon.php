@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,10 +50,13 @@
   </style>
 </head>
 <body>
-  <div id="game-container"></div>
+    <main>
+      <div id="game-container"></div>
   <a href="Index.php"> <button id="terug">terug</button></a>
-  <button id="resetButton">Reset Game</button>
-  <p id="score">Score: 0</p>
-  <script src="app.js"></script>
+      <button id="resetButton">Reset Game</button>
+      <p id="score">Score: 0</p>
+      <script src="marlon-game.js"></script>
+    </main>
+    <?php include ('../Include/footer.php'); ?>
 </body>
 </html>

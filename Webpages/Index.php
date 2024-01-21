@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage game website</title>
-        <link rel="stylesheet" href="stylesheet.css">
-    <?php 
-    include ('../Include/navbar.php');
-    include ('../Include/footer.php');
-    ?>
+    <link rel="stylesheet" href="stylesheet.css">
+    <?php include ('../Include/navbar.php'); ?>
 </head>
 <body>
-    <h1>Our games</h1>
-        <img src="img./team-trees.png" alt="Roald game">
-        <img src="img./team-trees.png" alt="Marlon game">
-        <img src="img./team-trees.png" alt="Dylan game"> <br>
+    <main>
+        <h1>Our games</h1>
+        <div class="placehold-png">
+            <img src="img./team-trees.png" alt="Roald game">
+            <img src="img./team-trees.png" alt="Marlon game">
+            <img src="img./team-trees.png" alt="Dylan game"> <br>
+        </div>
     <a href="uitleg game R">Game explanation</a>
     <a href="uitleg game M">Game explanation</a>
     <a href="uitleg game D">Game explanation</a>
@@ -33,6 +33,7 @@
     <h1>Donate to play</h1>
     <p>we're students at the TCR college in Rotterdam, our assignment <br>
     for this period was to make a game in javascript for charity.</p>
-
+    </main>
 </body>
+<?php include ('../Include/footer.php'); ?>
 </html>
