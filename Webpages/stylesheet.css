@@ -3,12 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    size: 0;
+    box-sizing: border-box; /* Fixing box model */
     text-decoration: none;
 }
-body{
+
+body {
     background-color: slategray;
 }
+
 /* Css navbar */
 nav {
     display: flex;
@@ -17,6 +19,7 @@ nav {
     align-items: center;
     font-size: xx-large;
 }
+
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -27,11 +30,12 @@ nav a {
     height: 100px;
     padding: 30px;
     color: white;
-    text-decoration: none;   
+    text-decoration: none;
 }
+
 /* Css Footer */
 
-.gdh1{     
+.gdh1 {
     display: flex;
     justify-content: center;
     margin: 15px;
@@ -40,39 +44,49 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #43C4CD;
 }
-.goeden-doelen{
+
+.goeden-doelen {
     display: flex;
     margin-top: 20rem;
 }
-.marlon, .dylan, .roald{
+
+.marlon,
+.dylan,
+.roald {
     background-color: #43C4CD;
     justify-content: space-between;
 }
-.pic{
-    scale: 50%;}
 
-.profiles{
+.pic {
+    transform: scale(0.5); /* Fixing the scale property */
+}
+
+.profiles {
     display: flex;
-    scale: 10%;
     padding: 1%;
     margin: 1%;
     border: 1%;
 }
 
-h1{ 
+h1 {
     display: flex;
     justify-content: center;
     margin: 15px;
     color: white;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #43C4CD;}
-p{  
+    background-color: #43C4CD;
+}
+
+p {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;}
-a{
-display: flex;
-font-family: Arial, Helvetica, sans-serif;
-justify-content: space-between;}
+    color: white;
+}
+
+a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
