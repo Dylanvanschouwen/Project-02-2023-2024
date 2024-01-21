@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <?php 
-    include ('../Include/navbar.php'); 
-    include ('../Include/footer.php');
-    ?>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orb Clicker Game</title>
   <style>
     body {
       margin: 0;
-      overflow: hidden; /* Prevent scrollbars */
+      overflow: hidden; /* geen scrollbars */
     }
 
     #game-container {
       position: absolute;
       width: 100%;
       height: 100%;
-      background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* Customize the background color or use an image */
+      background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* achtergrond*/
     }
 
     .orb {
@@ -45,6 +32,14 @@
       font-size: 16px;
       cursor: pointer;
     }
+    
+    #terug {
+      position: absolute;
+      top: 960px;
+      left: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
 
     #score {
       position: absolute;
@@ -55,13 +50,13 @@
   </style>
 </head>
 <body>
-  <div id="game-container"></div>
-  <button id="resetButton">Reset Game</button>
-  <p id="score">Score: 0</p>
-  <script src="app.js"></script>
+    <main>
+      <div id="game-container"></div>
+  <a href="Index.php"> <button id="terug">terug</button></a>
+      <button id="resetButton">Reset Game</button>
+      <p id="score">Score: 0</p>
+      <script src="marlon-game.js"></script>
+    </main>
+    <?php include ('../Include/footer.php'); ?>
 </body>
 </html>
-
-</body>
-</html>
-<h1></h1>

@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-body {
+body{
     background-color: slategray;
 }
 
@@ -33,60 +33,141 @@ nav a {
     text-decoration: none;
 }
 
-/* Css Footer */
+/* CSS Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #43C4CD;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
 
-.gdh1 {
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Css Links page */
+#links_header {
+    width: 100vw;
     display: flex;
     justify-content: center;
-    margin: 15px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#links_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#links_list a {
+    font-weight: bold;
     color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #43C4CD;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 40px;
 }
 
-.goeden-doelen {
-    display: flex;
-    margin-top: 20rem;
+#links_list li {
+    margin-bottom: 5vh;
 }
 
-.marlon,
-.dylan,
-.roald {
+/* Css marlon game page */
+#game-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  }
+
+  .orb {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #resetButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+  }
+
+/* Game dylan page */
+.dylan-game {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: slategray;
+    margin-top: 50px;
+}
+
+#D-title {
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 15px;
+    justify-items: center;
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    padding: 15px;
+    font-size: 20px;
+    margin: auto;
+    width: 50px; 
+    text-align: center; 
+}
+
+#restart-button {
+    padding: 15px 30px; 
+    font-size: 16px;
+    background-color: #43C4CD; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+#D-explain-button{
+    padding: 15px 30px;
     background-color: #43C4CD;
-    justify-content: space-between;
-}
-
-.pic {
-    transform: scale(0.5); /* Fixing the scale property */
-}
-
-.profiles {
-    display: flex;
-    padding: 1%;
-    margin: 1%;
-    border: 1%;
-}
-
-h1 {
-    display: flex;
+    color: white;
+    display: flex; 
+    margin: 50px;
     justify-content: center;
-    margin: 15px;
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #43C4CD;
-}
 
-p {
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-a {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
 }
