@@ -170,4 +170,18 @@ footer {
     margin: 50px;
     justify-content: center;
 
+    
+
 }
+
+/*CSS roald game*/
+
+#guessInput {
+    width: 50px;
+  }
+  
+  #result {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
