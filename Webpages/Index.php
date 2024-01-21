@@ -23,9 +23,9 @@
     <p>we're students at the TCR college in Rotterdam, our assignment <br>
     for this period was to make a game in javascript for charity.</p> <br>
     <div class="profiles">
-        <img src="" alt="Roald">
+        <img src="img/roald.jpg" alt="Roald">
         <img src="../Images/marlon.jpg" alt="Marlon">
-        <img src="" alt="Dylan">
+        <img src="img/dylan.jpg" alt="Dylan">
     </div>
     <p>you can view our portfolio </p>
     <a href="portfolio.html">here.</a>
