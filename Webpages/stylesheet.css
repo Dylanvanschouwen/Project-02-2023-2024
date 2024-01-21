@@ -157,7 +157,16 @@ footer {
   
 /*game thumbnail*/
   .thumbnail-png{
-    
+    display: flex;
+    width: 250px;
+    height: 250px;
+   
+  }
+
+  .profiles{
+    display: flex;
+    height: 250px;
+    width: 250px;
   }
 
   /*marlon game css*/
