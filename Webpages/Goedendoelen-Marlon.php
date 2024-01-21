@@ -8,9 +8,14 @@
     <?php include ('../Include/navbar.php'); ?>
 </head>
 <body>
-    <main> 
+    <h1>My charity</h1>
+        <div class="team-trees">
+            <img src="..team-trees.png" alt="team-trees">
 
-    
+
+        </div>
+
+        
     </main>
     <?php include ('../Include/footer.php'); ?>
 </body>
