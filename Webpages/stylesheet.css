@@ -193,6 +193,21 @@ footer {
     font-weight: bold;
     margin-top: 20px;
   }
+  .R-title{
+    display:flex;
+    justify-content: center;
+    margin-top: 20vh;
+  }
+  #R-explanation{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+  }
+  .R-guess{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+  }
   
 /*game thumbnail*/
   .thumbnail-png{
@@ -214,7 +229,7 @@ footer {
       position: absolute;
       width: 100%;
       height: 100%;
-      background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* achtergrond*/
+      background: linear-gradient(to bottom, #87CEEB, #1E90FF);
     }
 
     .orb {
