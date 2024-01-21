@@ -8,10 +8,7 @@
     <?php include ('../Include/navbar.php'); ?>
 </head>
 <body>
-    <main> 
-
-    
-    </main>
+  
     <?php include ('../Include/footer.php'); ?>
 </body>
 </html>
