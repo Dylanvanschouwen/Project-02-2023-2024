@@ -12,7 +12,7 @@
         <h1>Our games</h1>
         <div class="placehold-png">
             <img src="../Images/thumbnailRoald.png" alt="Roald game">
-            <img src="img./team-trees.png" alt="Marlon game">
+            <img src="../Images/ball clicker.png" alt="Marlon game">
             <img src="../Images/thumbnailDylan.png" alt="Dylan game"> <br>
         </div>
     <a href="uitleg game R">Game explanation</a>
