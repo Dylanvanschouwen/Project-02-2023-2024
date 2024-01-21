@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Fixing box model */
+    box-sizing: border-box; 
     text-decoration: none;
 }
 
@@ -30,7 +30,6 @@ nav a {
     height: 100px;
     padding: 30px;
     color: white;
-    text-decoration: none;
 }
 
 /* CSS Footer */
@@ -43,22 +42,6 @@ footer {
     padding: 20px;
     color: white;
     text-align: center;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
 }
 
 /* Css Links page */
@@ -96,7 +79,7 @@ footer {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* achtergrond*/
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
   }
 
   .orb {
@@ -199,28 +182,18 @@ footer {
     margin-top: 20vh;
   }
   #R-explanation{
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin-top:20px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
   }
   .R-guess{
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin-top:20px;
-  }
-  
-/*game thumbnail*/
-  .thumbnail-png{
-    display: flex;
-    width: 250px;
-    height: 250px;
-   
-  }
-
-  .profiles{
-    display: flex;
-    height: 250px;
-    width: 250px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
   }
 
   /*marlon game css*/
@@ -267,14 +240,15 @@ footer {
         height: auto;
         width: 20vw;
     }
-/* marlon goedendoel */
-/* marlon goedendoel */
-/* marlon goedendoel */
+
+
+
+  /* marlon goedendoel */
 .container {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    margin-bottom: 10px; /* Je kunt de waarde aanpassen naar wens */
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,8 +272,116 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(10vh - 10px); /* 10px is de margin-bottom waarde van het .container element */
+    min-height: calc(10vh - 10px);
     margin: 0;
 }
 
+/* Index CSS page */
+.thumbnails {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+#index-thumbnails-title {
+  font-size: 24px;
+  margin:25px;
+  color: #333;
+}
+
+.thumbnail-png img {
+  width: 30%; /* Adjust as needed */
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the game explanation links */
+.Game-explanation-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.Game-explanation-links a {
+  color: white;
+  background-color: #87CEEB;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Style the about us section */
+.about-us {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profiles img {
+  width: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* Style the donate to play section */
+.Donate-to-play {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 7vh;
+}
+
+.Donate-to-play h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.Donate-to-play-explanation {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+#profile-para{
+  font-size: 18px;
+  background-color:#43C4CD;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#profile-para-a{
+  color:white;
+}
+
+/* Dylan game explanation CSS */
+.Uitleg-D-game {
+  padding: 20px;
+  margin: 20px;
+}
+
+#D-uitleg {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Uitleg-D-game h1 {
+  color: #43C4CD;
+  margin-bottom: 15px;
+}
+
+.Uitleg-D-game p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.Uitleg-D-game ol {
+  list-style-type: decimal;
+  margin-bottom: 15px;
+}
+#D-meer-uitleg{
+  margin-bottom:50px;
+}

@@ -18,7 +18,7 @@
     </header>
     <section>
         <ul id="links_list">
-            <li><a href="Goedendoelen-Dylan.php"> Goedendoelen van Dylan en ik deze heb gekozen!</a></li>
+            <li><a href="Goedendoelen-Dylan.php"> Dit is het Goededoel van dylan</a></li>
             <li><a href="Goedendoelen-marlon.php">Goedendoelen van Marlon en ik deze heb gekozen!</a></li>
             <li><a href="Goedendoelen-Roald.php">Goedendoelen van Roald en ik deze heb gekozen!</a></li>
         </ul>
