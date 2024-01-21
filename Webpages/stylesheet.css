@@ -267,3 +267,39 @@ footer {
         height: auto;
         width: 20vw;
     }
+/* marlon goedendoel */
+/* marlon goedendoel */
+/* marlon goedendoel */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; /* Je kunt de waarde aanpassen naar wens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+           
+}
+
+.team-trees {
+    justify-content: center;
+}
+
+.donate-text {
+    font-size: x-large;
+    text-align: center;
+}
+
+.donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(10vh - 10px); /* 10px is de margin-bottom waarde van het .container element */
+    margin: 0;
+}
+
+
