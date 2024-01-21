@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <h1>Our games</h1>
+        <h1>Deez games</h1>
         <div class="placehold-png">
             <img src="img./team-trees.png" alt="Roald game">
             <img src="img./team-trees.png" alt="Marlon game">
