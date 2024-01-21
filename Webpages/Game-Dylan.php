@@ -9,19 +9,18 @@
 </head>
 <body>
 <main> 
-        <section class="dylan-game">
-            <h1 id=D-title>Tic Tac Toe</h1>
-            <div id="board" class="board">
-                <!-- Loop for creating 9 buttons instead of 9 divs -->
-                <?php for ($i = 1; $i <= 9; $i++) : ?>
-                    <input type="button" id="b<?php echo $i; ?>">
-                <?php endfor; ?>
-            </div>
-            <button onclick="reloadGame()" id="restart-button">Restart Game</button>
-        </section>
-
-        <script src="dylan-game.js"></script>
-    </main>
+    <section class="dylan-game">
+        <h1 id=D-title>Tic Tac Toe</h1>
+        <div id="board" class="board">
+            <?php for ($i = 1; $i <= 9; $i++) : ?>
+                <input type="button" id="b<?php echo $i; ?>">
+            <?php endfor; ?>
+        </div>
+        <button onclick="reloadGame()" id="restart-button">Restart Game</button>
+    </section>
+    <a href="Game-uitleg-Dylan.php" id="D-explain-button">Learn How to Play</a>
+    <script src="dylan-game.js"></script>
+</main>
     <?php include ('../Include/footer.php'); ?>
 </body>
 </html>

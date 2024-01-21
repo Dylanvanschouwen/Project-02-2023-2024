@@ -11,8 +11,6 @@ body{
     background-color: slategray;
 }
 
-
-
 /* Css navbar */
 nav {
     display: flex;
@@ -64,7 +62,6 @@ footer {
 }
 
 /* Css Links page */
-
 #links_header {
     width: 100vw;
     display: flex;
@@ -127,44 +124,50 @@ footer {
 /* Game dylan page */
 .dylan-game {
     padding: 20px;
-    max-width: 600px; /* Adjust the width to your preference */
-    margin: 0 auto; /* Center the section */
+    max-width: 600px;
+    margin: 0 auto;
     background-color: slategray;
-    margin-top: 50px; /* Adjust the top margin to add space between navbar and game */
+    margin-top: 50px;
 }
 
 #D-title {
-    text-align: center; /* Center the title text */
+    text-align: center;
     margin-bottom:15px;
 }
 
 .board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px; /* Adjust the gap between cells */
+    grid-gap: 10px;
     margin-bottom: 15px;
     justify-items: center;
 }
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
-    padding: 15px; /* Adjust the padding for better visual appearance */
+    padding: 15px;
     font-size: 20px;
     margin: auto;
-    width: 50px; /* Adjust the width of the buttons */
-    text-align: center; /* Center the button content */
+    width: 50px; 
+    text-align: center; 
 }
 
 #restart-button {
-    padding: 15px 30px; /* Adjust the padding for better visual appearance */
+    padding: 15px 30px; 
     font-size: 16px;
-    background-color: #43C4CD; /* Match the color of the rest of the website */
+    background-color: #43C4CD; 
     color: white;
     border: none;
     cursor: pointer;
-    display: block; /* Center the button */
-    margin: 0 auto; /* Center the button */
+    display: block;
+    margin: 0 auto;
 }
 
-#restart-button:hover {
-    background-color: #1E90FF; /* Adjust the hover color */
+#D-explain-button{
+    padding: 15px 30px;
+    background-color: #43C4CD;
+    color: white;
+    display: flex; 
+    margin: 50px;
+    justify-content: center;
+
 }
