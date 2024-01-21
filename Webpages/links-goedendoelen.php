@@ -14,13 +14,13 @@
 <!-- Main code -->
 <main id="links_main">
     <header id="links_header">
-        <h1>Links naar de goedendoelen die wij gekozen hebben!</h1>
+        <h1>Links to our charities of choice!</h1>
     </header>
     <section>
         <ul id="links_list">
-            <li><a href="Goedendoelen-Dylan.php"> Dit is het Goededoel van dylan</a></li>
-            <li><a href="Goedendoelen-marlon.php">Goedendoelen van Marlon en ik deze heb gekozen!</a></li>
-            <li><a href="Goedendoelen-Roald.php">Goedendoelen van Roald en ik deze heb gekozen!</a></li>
+            <li><a href="Goedendoelen-Dylan.php">Dylan's charities and why I chose them.</a></li>
+            <li><a href="Goedendoelen-marlon.php">Marlon's charities and why I chose them.</a></li>
+            <li><a href="Goedendoelen-Roald.php">Roald's charities and why I chose them.</a></li>
         </ul>
     </section>
 </main>

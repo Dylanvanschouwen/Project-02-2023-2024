@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My porfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <?php include ('../Include/navbar.php'); ?>
 </head>
 <body>
 <main>
-    <p>Mijn Naam</p>
+<div class = "marlon-portfolio">
 
-    <section>
-        <p>Over Mij</p>
-        <p>Vul hier je persoonlijke introductie in.</p>
+<section>
+<h1>Marlon</h1> <br>
+    <p>About Me:</p> 
+    <p>My name is Roald, and I am 20 years old.</p>
 
-        <h2>Mijn Vaardigheden</h2>
-        <ul>
-            <li>Vaardigheid 1</li>
-            <li>Vaardigheid 2</li>
-            <li>Vaardigheid 3</li>
-        </ul>
+    <h2>My Skills</h2>
+    <ul>
+        <li>Perseverant</li>
+        <li>Flexible</li>
+        <li>Creative</li>
+    </ul>
 
-        <h2>Mijn Projecten</h2>
-        <ul>
-            <li><strong>Project 1:</strong> Korte beschrijving van project 1.</li>
-            <li><strong>Project 2:</strong> Korte beschrijving van project 2.</li>
-            <li><strong>Project 3:</strong> Korte beschrijving van project 3.</li>
-        </ul>
-    </section>
+    <h2>My Projects</h2>
+    <ul>
+        <li><strong>Project 1: TCR Website</strong> Website about TCR School with related information.</li>
+        <li><strong>Project 2: Donate to play</strong> Project with a game for a charity.</li>
+    </ul>
+</section>
+</div>
 </main>
-    <?php include ('../Include/footer.php'); ?>
+<?php include ('../Include/footer.php'); ?>
 </body>
 </html>

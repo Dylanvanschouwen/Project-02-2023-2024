@@ -241,6 +241,8 @@ footer {
         width: 20vw;
     }
 
+/* marlon goedendoel */
+
 
 
   /* marlon goedendoel */
@@ -275,6 +277,21 @@ footer {
     min-height: calc(10vh - 10px);
     margin: 0;
 }
+
+/*game info marlon game*/
+
+.gameinfomarlon{
+    font-size: x-large;
+}
+
+/*marlon porfolio css*/
+.marlon-portfolio{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+
+}
+
 
 /* Index CSS page */
 .thumbnails {
