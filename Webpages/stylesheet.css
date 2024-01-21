@@ -123,3 +123,48 @@ footer {
     right: 10px;
     font-size: 16px;
   }
+
+/* Game dylan page */
+.dylan-game {
+    padding: 20px;
+    max-width: 600px; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the section */
+    background-color: slategray;
+    margin-top: 50px; /* Adjust the top margin to add space between navbar and game */
+}
+
+#D-title {
+    text-align: center; /* Center the title text */
+    margin-bottom:15px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap between cells */
+    margin-bottom: 15px;
+    justify-items: center;
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    padding: 15px; /* Adjust the padding for better visual appearance */
+    font-size: 20px;
+    margin: auto;
+    width: 50px; /* Adjust the width of the buttons */
+    text-align: center; /* Center the button content */
+}
+
+#restart-button {
+    padding: 15px 30px; /* Adjust the padding for better visual appearance */
+    font-size: 16px;
+    background-color: #43C4CD; /* Match the color of the rest of the website */
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block; /* Center the button */
+    margin: 0 auto; /* Center the button */
+}
+
+#restart-button:hover {
+    background-color: #1E90FF; /* Adjust the hover color */
+}
