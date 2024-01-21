@@ -13,13 +13,13 @@
 <body>
 <main id="links_main">
     <header id="links_header">
-        <h1>Hier vind je onze portfolio's</h1>
+        <h1>Here you'll find our portfolio's</h1>
     </header>
     <section>
         <ul id="links_list">
-            <li><a href="Portfolio-Dylan.php">Dit is de portfolio van Dylan. Klik hier om naar de pagina te gaan.</a></li>
-            <li><a href="Portfolio-marlon.php">Goedendoelen van Marlon en ik deze heb gekozen!</a></li>
-            <li><a href="Portfolio-Roald.php">Goedendoelen van Roald en ik deze heb gekozen!</a></li>
+            <li><a href="Portfolio-Dylan.php">this is Dylan's portfolio!</a></li>
+            <li><a href="Portfolio-marlon.php">this is Marlon's portfolio!</a></li>
+            <li><a href="Portfolio-Roald.php">this is Roald's portfolio!</a></li>
         </ul>
     </section>
 </main>

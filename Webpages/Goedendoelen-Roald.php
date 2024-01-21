@@ -16,6 +16,24 @@
     <br>
     <div id="beast"><img src="../Images/beast.png" alt="mr beast"></div>
     <br>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <main>
+        <div class="donate">
+            <a href="https://teamseas.org/" target="_blank">
+                <img src="../images/donate (2).png" alt="Donate to Team Trees">
+            </a>
+        </div>
+    </main>
+    <?php include ('../Include/footer.php'); ?>
+</body>
+</html>
     </main>
     <?php include ('../Include/footer.php'); ?>
 </body>

@@ -13,13 +13,13 @@
 <body>
 <main id="links_main">
     <header id="links_header">
-        <h1>Hier vind je de games die wij gemaakt hebben!</h1>
+        <h1>Here you will find the games that we made!</h1>
     </header>
     <section>
         <ul id="links_list">
-            <li><a href="Game-Dylan.php">Dit is de game van Dylan. Hij heeft Boter, kaas en eieren gemaakt. </a></li>
-            <li><a href="Game-marlon.php">Goedendoelen van Marlon en ik heb een ball clicker gemaakt!</a></li>
-            <li><a href="Game-Roald.php">Goedendoelen van Roald en ik deze heb gekozen!</a></li>
+            <li><a href="Game-Dylan.php">This is Dylan's game he made Tic tac toe!</a></li>
+            <li><a href="Game-marlon.php">This is Marlon's game he made ball clicker!</a></li>
+            <li><a href="Game-Roald.php">This is Roald's name he made Number guessing game!</a></li>
         </ul>
     </section>
 </main>
