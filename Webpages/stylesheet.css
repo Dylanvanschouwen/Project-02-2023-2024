@@ -247,3 +247,8 @@ footer {
       right: 10px;
       font-size: 16px;
     }
+    
+    #beast {
+        height: auto;
+        width: 20vw;
+    }
