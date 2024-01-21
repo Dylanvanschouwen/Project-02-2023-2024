@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
     <?php include ('../Include/navbar.php'); ?>
+    <script src="roald-game.js"></script>
 </head>
 <body>
     <main> 
