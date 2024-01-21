@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dit is het spel van Dylan.</title>
+    <?php
+        $pageTitle = "Dit is het spel dat Dylan heeft gemaakt.";
+        echo "<title>$pageTitle</title>";
+    ?>
     <link rel="stylesheet" href="stylesheet.css">
     <?php include ('../Include/navbar.php'); ?>
 </head>

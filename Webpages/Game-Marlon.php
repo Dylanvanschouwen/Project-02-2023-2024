@@ -7,13 +7,6 @@
     <link rel="stylesheet" href="stylesheet.css">
     <?php include ('../Include/navbar.php'); ?>
   <title>Orb Clicker Game</title>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden; /* geen scrollbars */
-    }
-
-  </style>
 </head>
 <body>
     <main>

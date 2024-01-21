@@ -10,8 +10,9 @@
 </head>
 <body>
     <main> 
-
-<h1>Number Guessing Game</h1>
+<div class="R-title"> 
+    <h1>Number Guessing Game</h1> 
+</div>
 <p>Switch players after every guess</p>
 <p>Guess a number between 1 and 100:</p>
 
@@ -19,7 +20,7 @@
 <button onclick="checkGuess()">Submit Guess</button>
 
 <p id="result"></p>
-
+<script src="roald-game.js"></script>
     </main>
     <?php include ('../Include/footer.php'); ?>
 </body>
