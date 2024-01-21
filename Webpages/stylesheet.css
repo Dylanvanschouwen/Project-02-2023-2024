@@ -267,8 +267,7 @@ footer {
         height: auto;
         width: 20vw;
     }
-/* marlon goedendoel */
-/* marlon goedendoel */
+
 /* marlon goedendoel */
 .container {
     font-family: Arial, sans-serif;
@@ -301,5 +300,20 @@ footer {
     min-height: calc(10vh - 10px); /* 10px is de margin-bottom waarde van het .container element */
     margin: 0;
 }
+
+/*game info marlon game*/
+
+.gameinfomarlon{
+    font-size: x-large;
+}
+
+/*marlon porfolio css*/
+.marlon-portfolio{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+
+}
+
 
 
