@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-body{
+body {
   background-color: slategray;
 }
 
@@ -26,7 +26,6 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: auto;
   height: 100px;
   padding: 30px;
   color: white;
@@ -49,8 +48,7 @@ footer {
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin: 5vh 0;
 }
 
 #links_list {
@@ -66,9 +64,9 @@ footer {
   padding: 5px;
   border-radius: 5px;
   font-size: 40px;
+  margin-bottom: 5vh;
 }
-
-#links_list li {
+#links_list li{
   margin-bottom: 5vh;
 }
 
@@ -88,27 +86,10 @@ footer {
   cursor: pointer;
 }
 
-#resetButton {
+#resetButton, #terug, #score {
   position: absolute;
-  top: 10px;
-  left: 10px;
   font-size: 16px;
   cursor: pointer;
-}
-
-#terug {
-  position: absolute;
-  top: 960px;
-  left: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#score {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 16px;
 }
 
 /* CSS Dylan game page */
@@ -455,4 +436,114 @@ footer {
   border: 5px solid #fff;
   height:auto;
   width: 100%;
+}
+/* Dylan Portfolio CSS */
+.D-portfolio {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#D-portfolio-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#D-portfolio-intro h1 {
+  color: #43C4CD;
+}
+
+#D-portfolio-selfie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#D-portfolio-selfie img {
+  max-width: 25%;
+  border-radius: 40%;
+  margin-bottom: 20px;
+}
+
+#D-portfolio-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#D-portfolio-main h2 {
+  color: #43C4CD;
+  margin-top: 20px;
+}
+
+#D-portfolio-main p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+#D-portfolio-main ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#D-portfolio-main li {
+  margin-bottom: 10px;
+}
+
+.D-Skills {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#skills-list,
+#soft-skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+#skills-list li,
+#soft-skills-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  margin-right: 2vw;
+}
+
+#D-portfolio-outro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #43C4CD;
+  color: white;
+  border-radius: 10px;
+}
+
+#D-portfolio-outro h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#D-portfolio-outro ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#D-portfolio-outro li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#D-portfolio-outro a {
+  color: white;
 }
