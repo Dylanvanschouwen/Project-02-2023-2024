@@ -42,12 +42,11 @@
                 <!-- More Explanation and Sources Section -->
                 <div id="D-meer-uitleg">
                     <h1>More Explanation and Sources</h1>
-                    <p>For more detailed explanations of the history, strategies, and variations of Tic Tac Toe, you can visit the Wikipedia page: <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank">Tic Tac Toe on Wikipedia</a>.</p>
+                    <p>For more detailed explanations of the history, strategies, and variations of Tic Tac Toe, you can visit the Wikipedia page by clicking <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">here</a>.</p>
                 </div>
-                
                 <!-- Button to Go Back to Game-Dylan.php -->
-                <div>
-                    <button onclick="window.location.href='../Game-Dylan.php'">Back to Game</button>
+                <div class="D-back-button">
+                <a href="Game-Dylan.php">Back to Game</button>
                 </div>
             </div>
         </section>
