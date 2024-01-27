@@ -56,7 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
         removeAllOrbs();
         score = 0;
         updateScore();
-        intervalId = setInterval(createOrb, spawnInterval);
+        intervalId = setInterval(createOrb, spawnInterval)
+        spawninterval = 1;
     }
   
     // Remove all orbs from the game container

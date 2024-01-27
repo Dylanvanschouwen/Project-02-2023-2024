@@ -34,7 +34,7 @@
     </a>
 
     <!-- Button to reset the game -->
-    <button id="resetButton">Reset Game</button>
+    <button id="resetButton">Reset Game</button><br>
 
     <!-- Display the current score -->
     <p id="score">Score: 0</p>
