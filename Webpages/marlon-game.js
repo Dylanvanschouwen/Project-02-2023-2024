@@ -1,32 +1,32 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Get DOM elements
+    // Get elements
     const gameContainer = document.getElementById('game-container');
     const resetButton = document.getElementById('resetButton');
     const scoreDisplay = document.getElementById('score');
-
+  
     // Game variables
     let score = 0;
     let spawnInterval = 2000;
     const initialSpawnInterval = 2000; // Initial spawn interval (milliseconds)
     let intervalId;
-
+  
     // Generate a random color
     function getRandomColor() {
         return '#' + Math.floor(Math.random() * 16777215).toString(16);
     }
-
+  
     // Create an orb and add click event listener
     function createOrb() {
         const orb = document.createElement('div');
         orb.className = 'orb';
         const x = Math.floor(Math.random() * (window.innerWidth - 50));
         const y = Math.floor(Math.random() * (window.innerHeight - 50));
-
+  
         // Set orb properties
         orb.style.left = `${x}px`;
         orb.style.top = `${y}px`;
         orb.style.backgroundColor = getRandomColor();
-
+  
         // Add click event listener to remove orb, increase speed, and update score
         orb.addEventListener('click', () => {
             gameContainer.removeChild(orb);
