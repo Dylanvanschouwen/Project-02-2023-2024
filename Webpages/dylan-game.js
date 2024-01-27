@@ -1,11 +1,11 @@
-// Initialize flag with value 1, representing the turn of the player ('X' or 'O') at the start of the game
+// start the flag with value 1, representing the turn of the player ('X' or 'O') at the start of the game
 let flag = 1;
 
-// Function to start the tic-tac-toe game
+// Function to start the game
 function initializeGame() {
-  // Reset flag to 1 for the start of the game (1 = 'X', 0 = 'O')
+  // Reset flag to 1 for the start of the game so the game always starts with player X (1 = 'X', 0 = 'O')
   flag = 1;
-  // Loop through each cell (b1 to b9) to reset their values and enable click events
+  // Loop through every cell in the grid to reset them all so the game is ready to be played again
   for (let i = 1; i <= 9; i++) {
     let cell = document.getElementById("b" + i);
     cell.value = '';
@@ -13,19 +13,19 @@ function initializeGame() {
     cell.addEventListener('click', cellClickHandler);
   }
 }
-// Event handler for a cell click
+// Function to handle the cells being clicked
 function cellClickHandler(event) {
   let cell = event.target;
 
-  // Check if the cell is empty before proceeding
+  // Check if the cell is empty before allowing it to be clicked
   if (cell.value === '') {
-    // Set the cell value based on the player's turn (flag)
+    // Set the value of the cell to 'X' or 'O' depending on the flag
     cell.value = (flag === 1) ? 'X' : 'O';
     cell.disabled = true;
-    // Switch player turn
+    // Toggle the flag to alternate between 'X' and 'O'
     flag = 1 - flag;
 
-    // Check for win or draw conditions and handle accordingly
+    // Check for win conditions or draw
     if (checkWinCondition(cell.value)) {
       alert(cell.value + " wins!");
       reloadGame();
@@ -36,7 +36,7 @@ function cellClickHandler(event) {
   }
 }
 
-// Function to check win conditions for the given symbol ('X' or 'O')
+// Function to check if a player has won
 function checkWinCondition(symbol) {
   const winConditions = [
     [1, 2, 3], [4, 5, 6], [7, 8, 9], 
@@ -44,15 +44,16 @@ function checkWinCondition(symbol) {
     [1, 5, 9], [3, 5, 7] 
   ];
 
-  // Iterate through each win condition and check if the symbol occupies all three cells
+  // Check if any of the win conditions are met
   for (const condition of winConditions) {
     const [a, b, c] = condition;
     if (getCell(a) === symbol && getCell(b) === symbol && getCell(c) === symbol) {
-      return true; // Win condition met
+      // Win condition has been met
+      return true; 
     }
   }
-
-  return false; // No win condition met
+// No win condition has been met
+  return false; 
 }
 
 // Function to check if the game is a draw
@@ -60,21 +61,23 @@ function checkDraw() {
   // Check if there are any empty cells remaining
   for (let i = 1; i <= 9; i++) {
     if (getCell(i) === '') {
-      return false; // Game is not a draw
+       // Game is not a draw
+      return false;
     }
   }
-  return true; // All cells are filled, indicating a draw
+  // All cells are filled, so its a draw
+  return true; 
 }
 
-// Function to get the value of a cell given its number (1 to 9)
+// Function to get the value of a cell
 function getCell(number) {
   return document.getElementById("b" + number).value;
 }
 
-// Function to reload the game by reinitializing it
+// Function to reload the game
 function reloadGame() {
   initializeGame();
 }
 
-// Initialize the game when the script is loaded
+// Call the initializeGame function to start the game
 initializeGame();
