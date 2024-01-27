@@ -24,9 +24,7 @@
     <main>
         <!-- Section for game thumbnails -->
         <section class="thumbnails">
-            <!-- Title for the game thumbnails -->
-            <h1 id="index-thumbnails-title">Game clickbait!</h1>
-
+        <br><br><br><br><br>
             <!-- Thumbnails of games with alt text for accessibility -->
             <div class="thumbnail-png">
                 <img src="../Images/thumbnailRoald.png" alt="Roald game">

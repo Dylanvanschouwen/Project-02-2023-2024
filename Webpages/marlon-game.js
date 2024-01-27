@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             gameContainer.removeChild(orb);
             increaseSpeed();
             updateScore();
+
         });
   
         // Append orb to the game container
@@ -49,15 +50,14 @@ document.addEventListener('DOMContentLoaded', function () {
         score++;
         scoreDisplay.innerText = `Score: ${score}`;
     }
-  
     // Reset the game
     function resetGame() {
         clearInterval(intervalId);
         removeAllOrbs();
         score = 0;
         updateScore();
-        intervalId = setInterval(createOrb, spawnInterval)
-        spawninterval = 1;
+        spawnInterval = 2000; // Corrected line
+        intervalId = setInterval(createOrb, spawnInterval);
     }
   
     // Remove all orbs from the game container
